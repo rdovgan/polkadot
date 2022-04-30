@@ -1135,7 +1135,7 @@ where
 			network: network.clone(),
 			signed_commitment_sender: beefy_links.0,
 			beefy_best_block_sender: beefy_links.1,
-			min_block_delta: if chain_spec.is_wococo() { 4 } else { 8 },
+			min_block_delta: 4,
 			prometheus_registry: prometheus_registry.clone(),
 			protocol_name: beefy_protocol_name,
 		};
