@@ -3688,7 +3688,7 @@ dependencies = [
  "libp2p-core",
  "libp2p-swarm",
  "log",
- "lru 0.7.5",
+ "lru 0.7.6",
  "prost 0.9.0",
  "prost-build",
  "smallvec",
@@ -4154,9 +4154,9 @@ dependencies = [
 
 [[package]]
 name = "lru"
-version = "0.7.5"
+version = "0.7.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "32613e41de4c47ab04970c348ca7ae7382cf116625755af070b008a15516a889"
+checksum = "8015d95cb7b2ddd3c0d32ca38283ceb1eea09b4713ee380bceb942d85a244228"
 dependencies = [
  "hashbrown 0.11.2",
 ]
@@ -6195,7 +6195,7 @@ dependencies = [
  "fatality",
  "futures 0.3.21",
  "futures-timer",
- "lru 0.7.5",
+ "lru 0.7.6",
  "parity-scale-codec",
  "polkadot-erasure-coding",
  "polkadot-node-network-protocol",
@@ -6225,7 +6225,7 @@ dependencies = [
  "futures 0.3.21",
  "futures-timer",
  "log",
- "lru 0.7.5",
+ "lru 0.7.6",
  "parity-scale-codec",
  "polkadot-erasure-coding",
  "polkadot-node-network-protocol",
@@ -6362,7 +6362,7 @@ dependencies = [
  "futures 0.3.21",
  "futures-timer",
  "lazy_static",
- "lru 0.7.5",
+ "lru 0.7.6",
  "parity-scale-codec",
  "polkadot-erasure-coding",
  "polkadot-node-network-protocol",
@@ -6478,7 +6478,7 @@ dependencies = [
  "futures-timer",
  "kvdb",
  "kvdb-memorydb",
- "lru 0.7.5",
+ "lru 0.7.6",
  "merlin",
  "parity-scale-codec",
  "parking_lot 0.12.0",
@@ -6647,7 +6647,7 @@ dependencies = [
  "futures-timer",
  "kvdb",
  "kvdb-memorydb",
- "lru 0.7.5",
+ "lru 0.7.6",
  "parity-scale-codec",
  "polkadot-node-primitives",
  "polkadot-node-subsystem",
@@ -6925,7 +6925,7 @@ dependencies = [
  "kvdb-shared-tests",
  "lazy_static",
  "log",
- "lru 0.7.5",
+ "lru 0.7.6",
  "parity-db",
  "parity-scale-codec",
  "parity-util-mem",
@@ -6958,7 +6958,7 @@ dependencies = [
  "femme",
  "futures 0.3.21",
  "futures-timer",
- "lru 0.7.5",
+ "lru 0.7.6",
  "orchestra",
  "parity-util-mem",
  "parking_lot 0.12.0",
@@ -7308,7 +7308,7 @@ dependencies = [
  "kvdb",
  "kvdb-rocksdb",
  "log",
- "lru 0.7.5",
+ "lru 0.7.6",
  "pallet-babe",
  "pallet-im-online",
  "pallet-staking",
@@ -8918,7 +8918,7 @@ version = "0.10.0-dev"
 source = "git+https://github.com/paritytech/substrate?branch=master#c8e2c4cea0485fea3b0d76099b5320730c3c8a9f"
 dependencies = [
  "lazy_static",
- "lru 0.7.5",
+ "lru 0.7.6",
  "parity-scale-codec",
  "parking_lot 0.12.0",
  "sc-executor-common",
@@ -9103,7 +9103,7 @@ dependencies = [
  "linked-hash-map",
  "linked_hash_set",
  "log",
- "lru 0.7.5",
+ "lru 0.7.6",
  "parity-scale-codec",
  "parking_lot 0.12.0",
  "pin-project 1.0.10",
@@ -9157,7 +9157,7 @@ dependencies = [
  "futures-timer",
  "libp2p",
  "log",
- "lru 0.7.5",
+ "lru 0.7.6",
  "sc-network",
  "sp-runtime",
  "substrate-prometheus-endpoint",
@@ -9195,7 +9195,7 @@ dependencies = [
  "futures 0.3.21",
  "libp2p",
  "log",
- "lru 0.7.5",
+ "lru 0.7.6",
  "parity-scale-codec",
  "prost 0.10.3",
  "prost-build",
@@ -10114,7 +10114,7 @@ source = "git+https://github.com/paritytech/substrate?branch=master#c8e2c4cea048
 dependencies = [
  "futures 0.3.21",
  "log",
- "lru 0.7.5",
+ "lru 0.7.6",
  "parity-scale-codec",
  "parking_lot 0.12.0",
  "sp-api",
@@ -11577,7 +11577,7 @@ dependencies = [
  "ahash",
  "lazy_static",
  "log",
- "lru 0.7.5",
+ "lru 0.7.6",
  "tracing-core",
 ]
 
